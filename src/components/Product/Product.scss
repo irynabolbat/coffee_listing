@@ -1,0 +1,87 @@
+.product {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 30px;
+
+  &-popular {
+    position: absolute;
+    font-size: 10px;
+    color: #111315;
+    padding: 5px 7px;
+    background-color: #f6c768;
+    width: auto;
+    border-radius: 50px;
+    text-align: center;
+    margin: 0;
+    z-index: 100;
+    top: 8px;
+    left: 8px;
+  }
+
+  &-image {
+    border-radius: 8px;
+  }
+
+  &-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &-text {
+      margin: 0;
+    }
+  }
+
+  &-name {
+    margin: 0;
+  }
+
+  &-price {
+    background-color: #bee3cc;
+    color: #111315;
+    padding: 5px;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 14px;
+    margin: 0;
+  }
+
+  &-rating {
+    &-wrapper {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 14px;
+      margin: 0;
+    }
+
+    &-content {
+      display: flex;
+      align-items: center;
+      margin: 0;
+    }
+
+    &-text {
+      margin: 0;
+      color: "#6F757C";
+      margin-left: 2px;
+    }
+  }
+
+  &-votes {
+    color: "#6F757C";
+    margin-left: 2px;
+  }
+
+  &-not-available {
+    color: #ed735d;
+    margin: 0;
+  }
+
+  &-star {
+    width: 24px;
+    height: 24px;
+  }
+}

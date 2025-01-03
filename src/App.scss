@@ -1,0 +1,15 @@
+.homepage-wrapper {
+  margin: 0 auto;
+  background-image: url("./assets/images/bg-cafe.jpg");
+  background-repeat: no-repeat;
+  background-color: #111315;
+  height: 100vh;
+  background-size:contain; 
+  overflow: auto;
+}
+
+.homepage_content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
